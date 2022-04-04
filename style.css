@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.container {
+  text-align: center;
+  color: #f5f5f5;
+  margin: 1%;
+  width: 99%;
+}
+
+.title {
+  padding: 10px;
+  background-color: #000;
+}
+
+.title > h1 {
+  font-weight: 100;
+  font-size: 50px;
+}
+
+.form-container {
+  padding: 10px;
+  background-color: #000;
+  font-size: 18px;
+}
+
+.mb {
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+label {
+  margin-bottom: 0.5rem;
+  display: block;
+  margin: 1rem;
+}
+
+.dollar {
+  position: absolute;
+  left: 41%;
+  top: 58%;
+  color: #000;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+input#total,
+input#percentage {
+  width: 250px;
+  padding: 0.375rem 2rem;
+  font-size: 1.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+  background-color: #fff;
+  outline: none;
+  border: 0;
+}
+
+input#percentage {
+  padding: 0.375rem 0.8rem;
+}
+
+.btn {
+  line-height: 1.5;
+  font-weight: 900;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 1rem 6rem;
+  margin: 1rem;
+  font-size: 2rem;
+  border-radius: 1rem;
+  color: #000;
+  background-color: #767171;
+  border-color: #767171;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  color: #fafafa;
+  background-color: #000;
+}
+
+.resumen {
+  background-color: #d9d9d9;
+  border-radius: 2rem;
+  color: #000;
+  margin: 1%;
+  padding: 3.3rem;
+  font-weight: 900;
+}
+
+.resumen-title {
+  font-size: 30px;
+  text-align: left;
+}
+
+.resumen-data-title,
+.resumen-data {
+  font-size: 25px;
+}
+
+.resumen-data-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.resumen-data-column {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reto 01 - Módulo 3</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <div class="title mb">
+          <h1>Calculadora de Propinas</h1>
+        </div>
+        <div class="form-container">
+          <form name="form">
+            <div class="mb">
+              <label for="total">Total de la cuenta</label>
+              <span for="total" class="dollar">$</span>
+              <input type="text" id="total"required/>
+            </div>
+            <div class="mb">
+              <label for="percentage">Porcentaje de la Propina</label>
+              <input type="text" id="percentage" required/> 
+            </div>
+            <button class="btn" id="btn" type="button">Calcular</button>
+          </form>
+          <div id="resumen"></div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <script src="scripts.js"></script>
+  </body>
+</html>
